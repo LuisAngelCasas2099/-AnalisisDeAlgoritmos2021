@@ -21,11 +21,11 @@ int main (int)
 
 printf("\n***************************************************");
 
-printf("\n* Programa que crea y ordena N n£meros aleatorios *");
+printf("\n* Programa que crea y ordena N nÂ£meros aleatorios *");
 
 printf("\n***************************************************");
 
-printf("\n\n ¨Cuantos numeros desea crear aleatoriamente? (max 10000) N=");
+printf("\n\n Â¨Cuantos numeros desea crear aleatoriamente? (max 10000) N=");
 
 scanf("%d",&N);
 
@@ -55,7 +55,7 @@ for(i=0;i<N;i++){
 
 conta++;
 
-numeros[i]=rand()/327;
+numeros[i]=rand()/2;
 
 printf(" %d ",numeros[i]);
 
